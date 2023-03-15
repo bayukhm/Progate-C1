@@ -48,3 +48,91 @@ header {
     color: white;
     margin-right: 20px;
   }
+
+/* body start */
+/* about start */
+.about,
+.menu {
+  padding-top: 5rem;
+}
+/* atur padding-top untuk menyesuaikan tinggi header */
+
+.about h2,
+.menu h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.about h2 span,
+.menu h2 span {
+  color: var(--primary);
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  margin-left: 3rem;
+}
+
+.about .row .about-img img {
+  width: 100%;
+}
+
+.about .row .content {
+  padding: 0 3rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+/* about end */
+
+/* Menu start */
+.menu h2 {
+  margin-bottom: 1rem;
+}
+
+.menu p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+  font-size: 1.3rem;
+}
+
+.menu .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+  padding: 0 5rem;
+  margin-top: 3rem;
+}
+
+.menu .row .menu-card img {
+  border-radius: 50%;
+  width: 220px;
+}
+
+.menu .row .menu-card .menu-card-tittle {
+  margin-top: 1rem auto 0.5rem;
+}
+/* Menu end */
+/* Body End */
