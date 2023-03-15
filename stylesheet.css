@@ -13,7 +13,7 @@ a{
     padding: 0 15px;
 }
 header {
-    height: 65px;
+    height: 80px;
     width: 100%;
     background-color: #1a1a1a;
     position:fixed;
@@ -28,6 +28,9 @@ header {
     font-size: 23px;
     margin-top: 20px;
     color: white;
+  }
+  span{
+    color: #F7C873;
   }
   .header-right {
     float: right;
